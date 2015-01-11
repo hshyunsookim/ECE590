@@ -6,7 +6,7 @@ import os
 import math
 
 #The path of the klampt_models directory
-model_dir = "../../klampt_models/"
+model_dir = "../klampt_models/"
 
 
 class MyGLViewer(GLRealtimeProgram):
