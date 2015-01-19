@@ -104,7 +104,6 @@ class MyGLViewer(GLRealtimeProgram):
         (s,d) = self.click_ray(x,y)
         
         #run the collision tests
-        self.collider.updateFrames()
         collided = []
         for g in self.collider.geomList:
             (hit,pt) = g[1].rayCast(s,d)
